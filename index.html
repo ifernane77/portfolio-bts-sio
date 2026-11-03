@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Portfolio professionnel de développeur web.
+          Projets, compétences et veille technologique."
+    />
+
+    <title>Portfolio | Développeur Web</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <!-- EN-TÊTE -->
+    <header class="site-header">
+      <nav class="navigation" aria-label="Navigation principale">
+        <a
+          href="index.html"
+          class="logo logo-image"
+          aria-label="Ilyas Fernane - Accueil"
+        >
+          <img
+            src="images/logo-navbar.png"
+            alt="Ilyas Fernane"
+            class="logo-navbar"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Afficher ou masquer le menu"
+          aria-controls="menu-principal"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="menu" id="menu-principal">
+          <li><a href="index.html" aria-current="page">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="veille.html">Veille</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Changer de thème"
+          title="Changer de thème"
+        >
+          ☾
+        </button>
+      </nav>
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main>
+      <section class="hero">
+        <div class="hero-contenu">
+          <p class="hero-intro">Bienvenue sur mon portfolio</p>
+
+          <h1>Ilyas Fernane</h1>
+
+          <h2>Développeur web full stack en formation</h2>
+
+          <p class="hero-description">
+            Étudiant en BTS SIO option SLAM, je développe mes compétences dans
+            la conception et la réalisation d'applications web. Je souhaite
+            poursuivre mes études en alternance et évoluer vers le développement
+            full stack.
+          </p>
+
+          <div class="hero-actions">
+            <a href="projets.html" class="btn btn-principal">
+              Découvrir mes projets
+            </a>
+
+            <a href="apropos.html" class="btn btn-secondaire"> Mon parcours </a>
+          </div>
+        </div>
+
+        <div class="hero-visuel">
+          <img
+            src="images/favicon.png"
+            alt="Monogramme IF - Identité visuelle Ilyas Fernane"
+            class="logo-principal"
+          />
+        </div>
+      </section>
+
+      <section class="projets-accueil">
+        <div class="conteneur">
+          <h2>Projets sélectionnés</h2>
+
+          <p class="section-description">
+            Découvrez quelques réalisations issues de ma formation et de mes
+            projets personnels.
+          </p>
+
+          <div class="grille-projets">
+            <article class="carte-projet">
+              <p class="projet-categorie">Application web</p>
+
+              <h3>Light of Knowledge</h3>
+
+              <p>
+                Développement progressif d'une plateforme de formation en ligne.
+              </p>
+
+              <a href="projets.html"> Découvrir le projet → </a>
+            </article>
+
+            <article class="carte-projet">
+              <p class="projet-categorie">Développement web</p>
+
+              <h3>DoctoRDV</h3>
+
+              <p>
+                Conception d'une interface de recherche de praticiens et de
+                prise de rendez-vous.
+              </p>
+
+              <a href="projets.html"> Découvrir le projet → </a>
+            </article>
+
+            <article class="carte-projet">
+              <p class="projet-categorie">Infrastructure et support</p>
+
+              <h3>GLPI EcoTech</h3>
+
+              <p>
+                Installation et configuration d'un environnement GLPI pour la
+                gestion de parc informatique.
+              </p>
+
+              <a href="projets.html"> Découvrir le projet → </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- PIED DE PAGE -->
+    <footer class="site-footer">
+      <p>© 2026 Ilyas Fernane — Portfolio développeur web</p>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

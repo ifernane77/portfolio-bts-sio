@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CSS Nesting | Veille technologique</title>
+
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+  </head>
+
+  <body>
+    <main class="page-interieure">
+      <article class="conteneur fiche-veille">
+        <a href="../../veille.html" class="retour-veille">
+          ← Retour à la veille
+        </a>
+
+        <p class="hero-intro">Veille technologique CSS</p>
+
+        <h1>CSS Nesting</h1>
+
+        <p>
+          <strong>Date de consultation :</strong>
+          09/10/2026
+        </p>
+
+        <h2>Fonctionnement</h2>
+
+        <p>
+          CSS Nesting permet d'imbriquer des sélecteurs CSS au sein d'autres
+          règles. Cette fonctionnalité est native au navigateur et ne nécessite
+          pas de préprocesseur comme Sass.
+        </p>
+
+        <h2>Exemple de code</h2>
+
+        <pre><code>.carte {
+    padding: 20px;
+
+    &amp;:hover {
+        background-color: #eaf2ff;
+    }
+}</code></pre>
+
+        <h2>Intérêt pour mes projets</h2>
+
+        <p>
+          Cette syntaxe pourrait simplifier les styles des cartes de formation
+          de Light of Knowledge ou de mon portfolio.
+        </p>
+
+        <h2>Bilan</h2>
+
+        <p>
+          Cette fonctionnalité permet de mieux organiser certaines règles CSS.
+          Un test pratique reste à effectuer.
+        </p>
+
+        <h2>Source documentaire</h2>
+
+        <p>
+          <a
+            href="https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Nesting_selector"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consulter la documentation MDN ↗
+          </a>
+        </p>
+      </article>
+    </main>
+    
+  <script src="../../js/theme.js"></script>
+  </body>
+</html>

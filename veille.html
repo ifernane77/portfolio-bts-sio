@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ma veille technologique sur les évolutions
+          du CSS et du développement web moderne."
+    />
+    <title>Veille technologique | Ilyas Fernane</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navigation" aria-label="Navigation principale">
+        <a
+          href="index.html"
+          class="logo logo-image"
+          aria-label="Ilyas Fernane - Accueil"
+        >
+          <img
+            src="images/logo-navbar.png"
+            alt="Ilyas Fernane"
+            class="logo-navbar"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Afficher ou masquer le menu"
+          aria-controls="menu-principal"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="menu" id="menu-principal">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="veille.html" aria-current="page">Veille</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Changer de thème"
+          title="Changer de thème"
+        >
+          ☾
+        </button>
+      </nav>
+    </header>
+
+    <main class="page-interieure">
+      <div class="conteneur">
+        <section class="presentation">
+          <p class="hero-intro">Veille technologique</p>
+
+          <h1>L'évolution du CSS</h1>
+
+          <p>
+            Dans le cadre de mon développement professionnel, j'effectue une
+            veille technologique consacrée aux évolutions du CSS et à leurs
+            applications dans le développement web moderne.
+          </p>
+
+          <p>
+            L'objectif est de découvrir de nouvelles fonctionnalités, comprendre
+            leurs avantages et étudier leur utilisation dans mes projets.
+          </p>
+        </section>
+
+        <!-- MÉTHODE DE VEILLE -->
+        <section class="veille-section">
+          <h2>Ma méthode de veille</h2>
+
+          <p>
+            J'utilise Feedly, un agrégateur de flux RSS, afin de centraliser les
+            publications de plusieurs sites spécialisés.
+          </p>
+
+          <p>
+            Je prévois de consulter ces sources toutes les deux semaines, de
+            sélectionner les articles pertinents et de vérifier les informations
+            dans la documentation MDN.
+          </p>
+        </section>
+
+        <!-- SOURCES -->
+        <section class="veille-section">
+          <h2>Sources d'information</h2>
+
+          <div class="grille-competences">
+            <article class="carte-competence">
+              <h3>CSS-Tricks</h3>
+              <p>Tutoriels et articles techniques consacrés au CSS.</p>
+              <a
+                href="https://css-tricks.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consulter la source ↗
+              </a>
+            </article>
+
+            <article class="carte-competence">
+              <h3>web.dev</h3>
+              <p>Actualités et évolutions des technologies web.</p>
+              <a
+                href="https://web.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consulter la source ↗
+              </a>
+            </article>
+
+            <article class="carte-competence">
+              <h3>Smashing Magazine</h3>
+              <p>
+                Articles sur le développement frontend et le responsive design.
+              </p>
+              <a
+                href="https://www.smashingmagazine.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consulter la source ↗
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <!-- FICHES DE VEILLE CSS -->
+        <section class="veille-section">
+          <h2>Évolutions CSS étudiées</h2>
+
+          <p>
+            Voici trois évolutions du CSS moderne que j'ai sélectionnées pour ma
+            veille technologique.
+          </p>
+
+          <div class="grille-competences">
+            <!-- CSS NESTING -->
+            <article class="carte-competence">
+              <h3>CSS Nesting</h3>
+
+              <p>
+                L'imbrication native des règles CSS pour mieux organiser les
+                feuilles de style.
+              </p>
+
+              <span class="niveau-competence">
+                Fiche documentaire rédigée
+              </span>
+
+              <a
+                class="lien-fiche"
+                href="veille/pages/01-css-nesting.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consulter la fiche ↗
+              </a>
+            </article>
+
+            <!-- CONTAINER QUERIES -->
+            <article class="carte-competence">
+              <h3>Container Queries</h3>
+
+              <p>Adapter les composants selon la taille de leur conteneur.</p>
+
+              <span class="niveau-competence">
+                Fiche documentaire rédigée
+              </span>
+
+              <a
+                class="lien-fiche"
+                href="veille/pages/02-container-queries.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consulter la fiche ↗
+              </a>
+            </article>
+
+            <!-- SELECTEUR HAS -->
+            <article class="carte-competence">
+              <h3>Sélecteur :has()</h3>
+
+              <p>
+                Adapter le style d'un élément selon la présence ou l'état
+                d'autres éléments.
+              </p>
+
+              <span class="niveau-competence">
+                Fiche documentaire rédigée
+              </span>
+
+              <a
+                class="lien-fiche"
+                href="veille/pages/03-selecteur-has.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consulter la fiche ↗
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <!-- PREUVE FEEDLY -->
+        <section class="veille-section">
+          <h2>Outil utilisé : Feedly</h2>
+
+          <p>
+            Capture de mon agrégateur RSS présentant les différentes sources
+            suivies.
+          </p>
+
+          <img
+            class="capture-veille"
+            src="veille/captures/feedly-sources.png"
+            alt="Sources de veille CSS configurées dans Feedly"
+            loading="lazy"
+          />
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Ilyas Fernane — Portfolio développeur web</p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

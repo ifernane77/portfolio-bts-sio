@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez mes projets en développement web,
+          conception logicielle et informatique."
+    />
+    <title>Mes projets | Ilyas Fernane</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navigation" aria-label="Navigation principale">
+        <a
+          href="index.html"
+          class="logo logo-image"
+          aria-label="Ilyas Fernane - Accueil"
+        >
+          <img
+            src="images/logo-navbar.png"
+            alt="Ilyas Fernane"
+            class="logo-navbar"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Afficher ou masquer le menu"
+          aria-controls="menu-principal"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="menu" id="menu-principal">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="projets.html" aria-current="page">Projets</a></li>
+          <li><a href="veille.html">Veille</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Changer de thème"
+          title="Changer de thème"
+        >
+          ☾
+        </button>
+      </nav>
+    </header>
+
+    <main class="page-interieure">
+      <div class="conteneur">
+        <section class="presentation">
+          <p class="hero-intro">Mes réalisations</p>
+
+          <h1>Mes projets</h1>
+
+          <p>
+            Découvrez les projets que je réalise dans le cadre de ma formation
+            en BTS SIO SLAM et de mon apprentissage personnel du développement
+            logiciel.
+          </p>
+
+          <p>
+            Ces réalisations évoluent progressivement avec l'acquisition de
+            nouvelles compétences.
+          </p>
+        </section>
+
+        <section class="liste-projets" aria-label="Projets informatiques">
+          <!-- LIGHT OF KNOWLEDGE -->
+          <article class="projet-detail">
+            <p class="projet-categorie">Développement web</p>
+
+            <h2>Light of Knowledge</h2>
+
+            <span class="statut-projet"> Interface publique réalisée </span>
+
+            <p>
+              Développement progressif d'une plateforme de formation en ligne.
+              Le projet vise à présenter des formations et à terme à gérer les
+              inscriptions, les utilisateurs et les contenus pédagogiques.
+            </p>
+
+            <h3>Travail réalisé</h3>
+
+            <ul>
+              <li>Pages d'accueil et de formations</li>
+              <li>Interfaces d'inscription et de connexion</li>
+              <li>Mise en page responsive</li>
+              <li>Identité graphique et navigation</li>
+            </ul>
+
+            <h3>Technologies pratiquées</h3>
+
+            <div class="technologies-projet">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Git / GitHub</span>
+            </div>
+
+            <p class="note-projet">
+              Les fonctionnalités PHP, la base de données et l'authentification
+              restent à développer.
+            </p>
+
+            <a
+              class="btn btn-principal"
+              href="https://github.com/ifernane77/Light-Of-Knowledge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consulter sur GitHub ↗
+            </a>
+          </article>
+
+          <!-- DOCTORDV -->
+          <article class="projet-detail">
+            <p class="projet-categorie">Conception logicielle</p>
+
+            <h2>DoctoRDV</h2>
+
+            <span class="statut-projet"> Conception en cours </span>
+
+            <p>
+              Projet d'application de gestion des rendez-vous d'une maison
+              médicale fictive. L'objectif est de permettre la consultation des
+              praticiens et, à terme, la réservation et la gestion des créneaux.
+            </p>
+
+            <h3>Travail documenté</h3>
+
+            <ul>
+              <li>Analyse fonctionnelle et besoins</li>
+              <li>Définition des rôles utilisateurs</li>
+              <li>Conception initiale des données</li>
+              <li>Préparation de l'architecture</li>
+            </ul>
+
+            <h3>Technologies et méthodes</h3>
+
+            <div class="technologies-projet">
+              <span>Analyse fonctionnelle</span>
+              <span>Modélisation</span>
+              <span>Git / GitHub</span>
+            </div>
+
+            <p class="note-projet">
+              L'implémentation PHP/MySQL du MVP reste à réaliser.
+            </p>
+
+            <a
+              class="btn btn-principal"
+              href="https://github.com/ifernane77/DoctoRDV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consulter sur GitHub ↗
+            </a>
+          </article>
+
+          <!-- GLPI ECOTECH -->
+          <article class="projet-detail">
+            <p class="projet-categorie">
+              Infrastructure et support informatique
+            </p>
+
+            <h2>GLPI EcoTech</h2>
+
+            <span class="statut-projet"> Projet de support informatique </span>
+
+            <p>
+              Simulation de la mise en place d'un environnement de support
+              informatique pour une petite entreprise, à l'aide de GLPI et d'un
+              serveur Debian.
+            </p>
+
+            <h3>Travail réalisé et documenté</h3>
+
+            <ul>
+              <li>Préparation de l'environnement Debian</li>
+              <li>Installation et configuration de GLPI</li>
+              <li>Organisation de l'inventaire informatique</li>
+              <li>Préparation des catégories et tickets</li>
+              <li>Documentation des procédures de support</li>
+            </ul>
+
+            <h3>Technologies et outils</h3>
+
+            <div class="technologies-projet">
+              <span>Debian 11</span>
+              <span>GLPI</span>
+              <span>Réseau</span>
+              <span>GitHub</span>
+              <span>Linux</span>
+            </div>
+
+            <a
+              class="btn btn-principal"
+              href="https://github.com/ifernane77/GLPI-EcoTech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consulter sur GitHub ↗
+            </a>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Ilyas Fernane — Portfolio développeur web</p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
