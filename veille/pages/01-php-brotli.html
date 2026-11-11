@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Veille BTS SIO SLAM sur la sécurité de PHP et Brotli.">
+  <title>PHP et Brotli | Veille technologique</title>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+  <main class="page-interieure">
+    <div class="conteneur fiche-veille">
+
+      <a class="retour-veille" href="../../veille.html">
+        ← Retour à la veille technologique
+      </a>
+
+      <p class="hero-intro">Cybersécurité / Back-end</p>
+      <h1>PHP et Brotli : pourquoi surveiller les dépendances logicielles ?</h1>
+
+      <p>
+        <strong>Actualité :</strong> 26 octobre 2026<br>
+        <strong>Consultation :</strong> 11 novembre 2026
+      </p>
+
+      <h2>L'actualité</h2>
+      <p>
+        Brotli est une bibliothèque qui permet de compresser et de
+        décompresser des données, notamment pour réduire la quantité
+        d'informations transférées sur Internet.
+      </p>
+
+      <p>
+        Une vulnérabilité identifiée sous le numéro
+        <strong>CVE-2026-111497</strong> concerne notamment Brotli 1.2.0.
+        Elle peut provoquer des problèmes de sécurité lorsque des données
+        compressées malveillantes sont décompressées.
+      </p>
+
+      <p>
+        Une version corrigée, Brotli 1.2.1, a été intégrée
+        dans de nouvelles compilations Windows de PHP.
+      </p>
+
+      <h2>Ma vérification pratique</h2>
+      <p>
+        J'ai utilisé PowerShell pour examiner mon installation PHP
+        sous XAMPP.
+      </p>
+
+      <ul>
+        <li>PHP : 8.3.36</li>
+        <li>cURL : 8.23.0</li>
+        <li>Brotli : 1.2.0</li>
+      </ul>
+
+      <p>
+        Cette vérification montre qu'une bibliothèque concernée
+        par la vulnérabilité est présente dans mon environnement.
+        Elle ne prouve pas qu'une application particulière est exploitable.
+      </p>
+
+      <h2>Ce que j'ai appris</h2>
+      <p>
+        J'ai compris qu'un code PHP correctement écrit peut utiliser
+        des bibliothèques vulnérables. Il faut donc surveiller leurs
+        versions, consulter les avis de sécurité et installer les
+        correctifs adaptés.
+      </p>
+
+      <p>
+        J'ai également appris qu'une mise à jour doit être suivie
+        de vérifications pour s'assurer que la version corrigée
+        est réellement utilisée.
+      </p>
+
+      <h2>Sources</h2>
+      <ul>
+        <li>
+          <a href="https://www.php.net/archive/2026.php#2026-10-26-1"
+             target="_blank" rel="noopener noreferrer">
+            Annonce officielle PHP — 26 octobre 2026
+          </a>
+        </li>
+        <li>
+          <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+             target="_blank" rel="noopener noreferrer">
+            NVD — CVE-2026-111497
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 — Portfolio BTS SIO SLAM</p>
+  </footer>
+
+</body>
+</html>
