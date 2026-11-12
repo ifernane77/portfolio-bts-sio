@@ -10,6 +10,50 @@
 </head>
 <body>
 
+<header class="site-header">
+      <nav class="navigation" aria-label="Navigation principale">
+        <a
+          href="../../index.html"
+          class="logo logo-image"
+          aria-label="Ilyas Fernane - Accueil"
+        >
+          <img
+            src="../../images/logo-navbar.png"
+            alt="Ilyas Fernane"
+            class="logo-navbar"
+          />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Afficher ou masquer le menu"
+          aria-controls="menu-principal"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="menu" id="menu-principal">
+          <li><a href="../../index.html">Accueil</a></li>
+          <li><a href="../../apropos.html">À propos</a></li>
+          <li><a href="../../competences.html">Compétences</a></li>
+          <li><a href="../../projets.html">Projets</a></li>
+          <li><a href="../../experiences.html">Expériences</a></li>
+          <li><a href="../../veille.html" aria-current="page">Veille</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Changer de thème"
+          title="Changer de thème"
+        >
+          ☾
+        </button>
+      </nav>
+    </header>
+
   <main class="page-interieure">
     <div class="conteneur fiche-veille">
 
@@ -99,5 +143,7 @@
     <p>© 2026 — Portfolio BTS SIO SLAM</p>
   </footer>
 
+  <script src="../../js/menu.js"></script>
+  <script src="../../js/theme.js"></script>
 </body>
 </html>
