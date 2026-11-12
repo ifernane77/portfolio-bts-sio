@@ -3,147 +3,991 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Compétences en développement web,
-          programmation et informatique d'Ilyas Fernane."
-    />
-    <title>Compétences | Ilyas Fernane</title>
+    <meta name="description" content="Compétences E5 et E6 du BTS SIO SLAM, réalisations et documents associés : GLPI EcoTech, DoctoRDV, Light of Knowledge et projets web." />
+    <title>Compétences E5 et E6 | Portfolio BTS SIO SLAM</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/competences.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
-
   <body>
     <header class="site-header">
       <nav class="navigation" aria-label="Navigation principale">
-        <a
-          href="index.html"
-          class="logo logo-image"
-          aria-label="Ilyas Fernane - Accueil"
-        >
-          <img
-            src="images/logo-navbar.png"
-            alt="Ilyas Fernane"
-            class="logo-navbar"
-          />
+        <a href="index.html" class="logo logo-image" aria-label="Ilyas Fernane - Accueil">
+          <img src="images/logo-navbar.png" alt="Ilyas Fernane" class="logo-navbar" />
         </a>
-
-        <button
-          class="menu-toggle"
-          type="button"
-          aria-label="Afficher ou masquer le menu"
-          aria-controls="menu-principal"
-          aria-expanded="false"
-        >
-          ☰
-        </button>
-
+        <button class="menu-toggle" type="button" aria-label="Afficher ou masquer le menu" aria-controls="menu-principal" aria-expanded="false">☰</button>
         <ul class="menu" id="menu-principal">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="apropos.html">À propos</a></li>
-          <li>
-            <a href="competences.html" aria-current="page">Compétences</a>
-          </li>
+          <li><a href="competences.html" aria-current="page">Compétences</a></li>
           <li><a href="projets.html">Projets</a></li>
           <li><a href="veille.html">Veille</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <button
-          class="theme-toggle"
-          type="button"
-          aria-label="Changer de thème"
-          title="Changer de thème"
-        >
-          ☾
-        </button>
+        <button class="theme-toggle" type="button" aria-label="Changer de thème" title="Changer de thème">☾</button>
       </nav>
     </header>
-
     <main class="page-interieure">
       <div class="conteneur">
-        <section class="presentation">
-          <p class="hero-intro">Mon environnement technique</p>
+        <section class="presentation ref-presentation">
+          <p class="hero-intro">Référentiel BTS SIO — option SLAM</p>
           <h1>Mes compétences</h1>
-
-          <p>
-            Dans le cadre de ma formation en BTS SIO option SLAM, je développe
-            progressivement mes compétences en programmation, développement
-            d'applications et administration des services informatiques.
-          </p>
+          <p>Retrouvez les compétences des épreuves E5 et E6, leurs sous-compétences et les documents issus de mes projets. Chaque pièce est une <strong>piste de preuve à vérifier</strong>, pas une compétence officiellement validée.</p>
+          <nav class="ref-navigation" aria-label="Sections de cette page">
+            <a href="#e5">Épreuve E5</a>
+            <a href="#e6">Épreuve E6 SLAM</a>
+            <a href="#techniques">Compétences techniques</a>
+          </nav>
         </section>
+        <section class="competences-section ref-section" id="e5" aria-labelledby="titre-e5">
+          <p class="ref-eyebrow">BLOC 1 · U5</p>
+          <h2 id="titre-e5">Support et mise à disposition de services informatiques</h2>
+          <p class="ref-section-description">Six compétences à développer. Ouvrez une compétence, puis une sous-compétence, pour consulter les documents associés.</p>
+          <details class="ref-groupe" id="e5-1">
+            <summary>
+              <span class="ref-numero">E5 · 01</span>
+              <span class="ref-groupe-titre">Gérer le patrimoine informatique</span>
+              <span class="ref-sous-nombre">6 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.1</span>
+                  <span>Recenser et identifier les ressources numériques</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=9"
+                        target="_blank" rel="noopener noreferrer">
+                        Inventaire automatique du poste Debian (PDF, page 9)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Poste détecté dans GLPI grâce à GLPI Agent
+                      </span>
+                    </li>
 
-        <section class="competences-section">
-          <h2>Développement web</h2>
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=13"
+                        target="_blank" rel="noopener noreferrer">
+                        Parc informatique EcoTech (PDF, page 13)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Présentation des équipements enregistrés dans GLPI
+                      </span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.2</span>
+                  <span>Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/GLPI-EcoTech/blob/main/regles-securisation-equipements.md" target="_blank" rel="noopener noreferrer">
+                        Règles de sécurisation des équipements <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">À vérifier au regard des normes et référentiels utilisés</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.3</span>
+                  <span>Mettre en place et vérifier les niveaux d’habilitation associés à un service</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=16"
+                        target="_blank" rel="noopener noreferrer">
+                        Profil Technician — Support EcoTech (PDF, page 16)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Habilitation du compte chargé des tickets
+                      </span>
+                    </li>
 
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=17"
+                        target="_blank" rel="noopener noreferrer">
+                        Profil Admin — EcoTech (PDF, page 17)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Vérification du profil administrateur dans GLPI
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=18"
+                        target="_blank" rel="noopener noreferrer">
+                        Profil Self-Service — Terrain EcoTech (PDF, page 18)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Vérification du profil attribué au demandeur
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=19"
+                        target="_blank" rel="noopener noreferrer">
+                        Interface du demandeur (PDF, page 19)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Test de connexion avec le compte Self-Service
+                      </span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.4</span>
+                  <span>Vérifier les conditions de la continuité d’un service informatique</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.5</span>
+                  <span>Gérer des sauvegardes</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.6</span>
+                  <span>Vérifier le respect des règles d’utilisation des ressources numériques</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/GLPI-EcoTech/blob/main/regles-securisation-equipements.md" target="_blank" rel="noopener noreferrer">
+                        Règles de sécurisation <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Correspondance exacte à justifier</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+          <details class="ref-groupe" id="e5-2">
+            <summary>
+              <span class="ref-numero">E5 · 02</span>
+              <span class="ref-groupe-titre">Répondre aux incidents et aux demandes d’assistance et d’évolution</span>
+              <span class="ref-sous-nombre">3 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.1</span>
+                  <span>Collecter, suivre et orienter des demandes</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=22"
+                        target="_blank" rel="noopener noreferrer">
+                        Liste des tickets EcoTech (PDF, page 22)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Enregistrement et suivi de huit demandes et incidents
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=24"
+                        target="_blank" rel="noopener noreferrer">
+                        Affectation d'un incident au support (PDF, page 24)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Ticket n° 4 associé à une imprimante et à un technicien
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=26"
+                        target="_blank" rel="noopener noreferrer">
+                        Suivi d'un ticket en cours (PDF, page 26)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Consultation du ticket Wi-Fi n° 10 depuis le compte Terrain
+                      </span>
+                    </li>
+                  </ul>
+
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.2</span>
+                  <span>Traiter des demandes concernant les services réseau et système, applicatifs</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=25"
+                        target="_blank" rel="noopener noreferrer">
+                        Traitement d'un incident réseau (PDF, page 25)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Ticket n° 8 : coupure Internet, vérifications
+                        et solution enregistrées dans GLPI
+                      </span>
+                    </li>
+                  </ul>
+
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.3</span>
+                  <span>Traiter des demandes concernant les applications</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+          <details class="ref-groupe" id="e5-3">
+            <summary>
+              <span class="ref-numero">E5 · 03</span>
+              <span class="ref-groupe-titre">Développer la présence en ligne de l’organisation</span>
+              <span class="ref-sous-nombre">3 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">3.1</span>
+                  <span>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/Light-Of-Knowledge/blob/main/public/index.html" target="_blank" rel="noopener noreferrer">
+                        Page d’accueil Light of Knowledge <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Interface publique ; aspects juridiques à documenter</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/Light-Of-Knowledge/blob/main/cahier-des-charges.md" target="_blank" rel="noopener noreferrer">
+                        Cahier des charges <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Contexte et besoins</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">3.2</span>
+                  <span>Référencer les services en ligne de l’organisation et mesurer leur visibilité</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">3.3</span>
+                  <span>Participer à l’évolution d’un site Web exploitant les données de l’organisation</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/Light-Of-Knowledge/blob/main/public/formations.html" target="_blank" rel="noopener noreferrer">
+                        Page Formations <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Évolution de l’interface ; exploitation des données à justifier</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/Light-Of-Knowledge/blob/main/public/inscription.html" target="_blank" rel="noopener noreferrer">
+                        Page Inscription <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Maquette de formulaire</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+          <details class="ref-groupe" id="e5-4">
+            <summary>
+              <span class="ref-numero">E5 · 04</span>
+              <span class="ref-groupe-titre">Travailler en mode projet</span>
+              <span class="ref-sous-nombre">3 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">4.1</span>
+                  <span>Analyser les objectifs et les modalités d’organisation d’un projet</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/bat-expertise-manager/blob/main/docs/cahier-des-charges.md" target="_blank" rel="noopener noreferrer">
+                        Cahier des charges — Bat Expertise Manager <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Expression du besoin</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/analyse-fonctionnelle.md" target="_blank" rel="noopener noreferrer">
+                        Analyse fonctionnelle — DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Besoins et rôles</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">4.2</span>
+                  <span>Planifier les activités</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/backlog.md" target="_blank" rel="noopener noreferrer">
+                        Backlog — DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Planification des tâches</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/GLPI-EcoTech/blob/main/backlog.md" target="_blank" rel="noopener noreferrer">
+                        Backlog — GLPI EcoTech <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Organisation du travail</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">4.3</span>
+                  <span>Évaluer les indicateurs de suivi d’un projet et analyser les écarts</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/GLPI-EcoTech/blob/main/journal-de-bord.md" target="_blank" rel="noopener noreferrer">
+                        Journal de bord GLPI <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Les indicateurs et les écarts restent à expliciter</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+          <details class="ref-groupe" id="e5-5">
+            <summary>
+              <span class="ref-numero">E5 · 05</span>
+              <span class="ref-groupe-titre">Mettre à disposition des utilisateurs un service informatique</span>
+              <span class="ref-sous-nombre">3 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">5.1</span>
+                  <span>Réaliser les tests d’intégration et d’acceptation d’un service</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/bat-expertise-manager/blob/main/docs/tests.md" target="_blank" rel="noopener noreferrer">
+                        Document de tests — Bat Expertise Manager <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Vérifier les tests effectivement réalisés</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">5.2</span>
+                  <span>Déployer un service</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=4"
+                        target="_blank" rel="noopener noreferrer">
+                        Installation du serveur Debian (PDF, page 4)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Mise en place d'Apache, PHP et MariaDB
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=5"
+                        target="_blank" rel="noopener noreferrer">
+                        Installation et accès à GLPI (PDF, page 5)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Tableau de bord de GLPI après son installation
+                      </span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">5.3</span>
+                  <span>Accompagner les utilisateurs dans la mise en place d’un service</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="documents/GLPI_EcoTech_dossier_preuves_complet.pdf#page=27"
+                        target="_blank" rel="noopener noreferrer">
+                        Procédure utilisateur GLPI (PDF, page 27)
+                      </a>
+                      <span class="ref-preuve-contexte">
+                        Documentation créée pour expliquer aux utilisateurs
+                        comment déclarer un ticket dans GLPI
+                      </span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+          <details class="ref-groupe" id="e5-6">
+            <summary>
+              <span class="ref-numero">E5 · 06</span>
+              <span class="ref-groupe-titre">Organiser son développement professionnel</span>
+              <span class="ref-sous-nombre">4 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">6.1</span>
+                  <span>Mettre en place son environnement d’apprentissage personnel</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/installation.md" target="_blank" rel="noopener noreferrer">
+                        Installation de l’environnement DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Organisation de l’environnement local</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/Light-Of-Knowledge/blob/main/scripts/check-environment.ps1" target="_blank" rel="noopener noreferrer">
+                        Script de vérification d’environnement <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Outil de préparation du poste</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">6.2</span>
+                  <span>Mettre en œuvre des outils et stratégies de veille informationnelle</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="veille.html" >
+                        Ma méthode de veille technologique <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Présentation de la démarche</span>
+                    </li>
+                    <li>
+                      <a href="veille/pages/01-php-brotli.html" >
+                        Fiche PHP et Brotli <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Veille étudiée et publiée</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">6.3</span>
+                  <span>Gérer son identité professionnelle</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="index.html" >
+                        Portfolio professionnel <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Présentation publique des réalisations</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/portfolio-bts-sio/blob/main/index.html" target="_blank" rel="noopener noreferrer">
+                        Code source du portfolio <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Présentation de mon identité professionnelle</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">6.4</span>
+                  <span>Développer son projet professionnel</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="apropos.html" >
+                        Parcours et projet professionnel <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Objectifs de poursuite d’études</span>
+                    </li>
+                    <li>
+                      <a href="contact.html" >
+                        Contact professionnel <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Canaux de contact</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+        </section>
+        <section class="competences-section ref-section" id="e6" aria-labelledby="titre-e6">
+          <p class="ref-eyebrow">BLOC 2 · U6 · OPTION SLAM</p>
+          <h2 id="titre-e6">Conception et développement d’applications</h2>
+          <p class="ref-section-description">Trois compétences : conception, maintenance et gestion des données. DoctoRDV et Light of Knowledge sont les projets de référence ; les éléments encore en cours sont clairement indiqués.</p>
+          <details class="ref-groupe" id="e6-1">
+            <summary>
+              <span class="ref-numero">E6 · 01</span>
+              <span class="ref-groupe-titre">Concevoir et développer une solution applicative</span>
+              <span class="ref-sous-nombre">11 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.1</span>
+                  <span>Analyser un besoin exprimé et son contexte juridique</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/analyse-fonctionnelle.md" target="_blank" rel="noopener noreferrer">
+                        Analyse fonctionnelle DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Contexte juridique à expliciter</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/Light-Of-Knowledge/blob/main/cahier-des-charges.md" target="_blank" rel="noopener noreferrer">
+                        Cahier des charges Light of Knowledge <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Expression des besoins</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.2</span>
+                  <span>Participer à la conception de l’architecture d’une solution applicative</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/architecture.md" target="_blank" rel="noopener noreferrer">
+                        Architecture prévue pour DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Architecture de projet</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.3</span>
+                  <span>Modéliser une solution applicative</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/maquettes/DoctoRDV%20-%20Diagramme%20de%20classes.drawio.pdf" target="_blank" rel="noopener noreferrer">
+                        Diagramme de classes <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Document de modélisation</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/database/mcd-brouillon.md" target="_blank" rel="noopener noreferrer">
+                        MCD en brouillon <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Modélisation des données en cours</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.4</span>
+                  <span>Exploiter les ressources du cadre applicatif (framework)</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.5</span>
+                  <span>Identifier, développer, utiliser ou adapter des composants logiciels</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/public/index.html" target="_blank" rel="noopener noreferrer">
+                        Interface de recherche DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Prototype HTML à présenter</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/Light-Of-Knowledge/blob/main/public/inscription.html" target="_blank" rel="noopener noreferrer">
+                        Interface d’inscription <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Maquette, sans authentification effective</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.6</span>
+                  <span>Exploiter les technologies Web pour mettre en œuvre les échanges entre applications, y compris de mobilité</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.7</span>
+                  <span>Utiliser des composants d’accès aux données</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.8</span>
+                  <span>Intégrer en continu les versions d’une solution applicative</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.9</span>
+                  <span>Réaliser les tests nécessaires à la validation ou à la mise en production d’éléments adaptés ou développés</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.10</span>
+                  <span>Rédiger des documentations technique et d’utilisation d’une solution applicative</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/installation.md" target="_blank" rel="noopener noreferrer">
+                        Guide d’installation DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Documentation technique</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/presentation-projet.md" target="_blank" rel="noopener noreferrer">
+                        Présentation du projet DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Documentation générale</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">1.11</span>
+                  <span>Exploiter les fonctionnalités d’un environnement de développement et de tests</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/installation.md" target="_blank" rel="noopener noreferrer">
+                        Environnement local de DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Configuration et exécution locale à documenter</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+          <details class="ref-groupe" id="e6-2">
+            <summary>
+              <span class="ref-numero">E6 · 02</span>
+              <span class="ref-groupe-titre">Assurer la maintenance corrective ou évolutive d’une solution applicative</span>
+              <span class="ref-sous-nombre">5 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.1</span>
+                  <span>Recueillir, analyser et mettre à jour les informations sur une version d’une solution applicative</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/journal-de-bord.md" target="_blank" rel="noopener noreferrer">
+                        Journal de bord DoctoRDV <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">À compléter par un exemple réel d’évolution</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.2</span>
+                  <span>Évaluer la qualité d’une solution applicative</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.3</span>
+                  <span>Analyser et corriger un dysfonctionnement</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.4</span>
+                  <span>Mettre à jour des documentations technique et d’utilisation d’une solution applicative</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">2.5</span>
+                  <span>Élaborer et réaliser les tests des éléments mis à jour</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+          <details class="ref-groupe" id="e6-3">
+            <summary>
+              <span class="ref-numero">E6 · 03</span>
+              <span class="ref-groupe-titre">Gérer les données</span>
+              <span class="ref-sous-nombre">4 sous-compétences</span>
+            </summary>
+            <div class="ref-groupe-contenu">
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">3.1</span>
+                  <span>Exploiter des données à l’aide d’un langage de requêtes</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">3.2</span>
+                  <span>Développer des fonctionnalités applicatives au sein d’un système de gestion de base de données (relationnel ou non)</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">3.3</span>
+                  <span>Concevoir ou adapter une base de données</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-preuves-intro">Documents disponibles à examiner pour justifier cette sous-compétence :</p>
+                  <ul class="ref-preuves-liste">
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/database/mld-brouillon.md" target="_blank" rel="noopener noreferrer">
+                        MLD DoctoRDV en brouillon <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Conception en cours ; mise en œuvre non attestée</span>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ifernane77/DoctoRDV/blob/main/database/dictionnaire-donnees.md" target="_blank" rel="noopener noreferrer">
+                        Dictionnaire des données <span aria-hidden="true">↗</span>
+                      </a>
+                      <span class="ref-preuve-contexte">Documentation initiale</span>
+                    </li>
+                  </ul>
+                  <p class="ref-statut ref-statut-revue">Statut : correspondance à vérifier avec le référentiel et les pièces.</p>
+                </div>
+              </details>
+              <details class="ref-sous-competence">
+                <summary>
+                  <span class="ref-sous-index">3.4</span>
+                  <span>Administrer et déployer une base de données</span>
+                </summary>
+                <div class="ref-preuves">
+                  <p class="ref-vide">Aucune preuve spécifique associée pour le moment. À compléter au fil des projets.</p>
+                  <p class="ref-statut">Statut : non documentée.</p>
+                </div>
+              </details>
+            </div>
+          </details>
+        </section>
+        <section class="competences-section ref-section" id="techniques" aria-labelledby="titre-techniques">
+          <p class="ref-eyebrow">MON ENVIRONNEMENT TECHNIQUE</p>
+          <h2 id="titre-techniques">Langages et outils pratiqués</h2>
+          <p class="ref-section-description">Ces technologies complètent les compétences du référentiel et reflètent mon niveau actuel d’apprentissage.</p>
+          <h3 class="ref-categorie-tech">Développement web</h3>
           <div class="grille-competences">
             <article class="carte-competence">
-              <h3>HTML5</h3>
-              <p>Structure sémantique des pages et formulaires.</p>
+              <h4>HTML5</h4>
+              <p>Pages sémantiques et formulaires</p>
               <span class="niveau-competence">Pratiqué en projet</span>
             </article>
-
             <article class="carte-competence">
-              <h3>CSS3</h3>
-              <p>Flexbox, Grid, responsive design et mise en page.</p>
+              <h4>CSS3</h4>
+              <p>Flexbox, Grid et responsive design</p>
               <span class="niveau-competence">En consolidation</span>
             </article>
-
             <article class="carte-competence">
-              <h3>PHP</h3>
-              <p>Premières notions de programmation côté serveur.</p>
+              <h4>PHP</h4>
+              <p>Premières notions de développement côté serveur</p>
               <span class="niveau-competence">Bases acquises</span>
             </article>
           </div>
-        </section>
-
-        <section class="competences-section">
-          <h2>Bases de données et conception</h2>
-
+          <h3 class="ref-categorie-tech">Bases de données et conception</h3>
           <div class="grille-competences">
             <article class="carte-competence">
-              <h3>SQL</h3>
-              <p>Premières requêtes et manipulation de données.</p>
+              <h4>SQL</h4>
+              <p>Premières requêtes et manipulation de données</p>
               <span class="niveau-competence">Bases en cours</span>
             </article>
-
             <article class="carte-competence">
-              <h3>UML</h3>
-              <p>Modélisation et représentation des systèmes.</p>
+              <h4>UML</h4>
+              <p>Modélisation et représentation des systèmes</p>
               <span class="niveau-competence">Notions étudiées</span>
             </article>
           </div>
-        </section>
-
-        <section class="competences-section">
-          <h2>Outils et systèmes</h2>
-
+          <h3 class="ref-categorie-tech">Outils et systèmes</h3>
           <div class="grille-competences">
             <article class="carte-competence">
-              <h3>Git et GitHub</h3>
-              <p>Versionnement et gestion de dépôts de projets.</p>
+              <h4>Git et GitHub</h4>
+              <p>Versionnement et gestion de dépôts</p>
               <span class="niveau-competence">Utilisé en projet</span>
             </article>
-
             <article class="carte-competence">
-              <h3>Linux / Debian</h3>
-              <p>Installation et configuration d'environnements Linux.</p>
-              <span class="niveau-competence">Pratiqué en stage</span>
+              <h4>Linux / Debian</h4>
+              <p>Installation et configuration d’environnements Linux</p>
+              <span class="niveau-competence">Pratiqué en projet</span>
             </article>
-
             <article class="carte-competence">
-              <h3>GLPI</h3>
-              <p>Installation, inventaire et gestion de parc informatique.</p>
-              <span class="niveau-competence">Pratiqué en stage</span>
+              <h4>GLPI</h4>
+              <p>Installation, inventaire et gestion de parc informatique</p>
+              <span class="niveau-competence">Pratiqué en projet</span>
             </article>
           </div>
         </section>
+        <p class="ref-source"><strong>Référentiel :</strong> <a href="https://etab.ac-reunion.fr/lyc-pierre-poivre/category/formations/bts-sio/bts-sio-specialite-slam/" target="_blank" rel="noopener noreferrer">Lycée Pierre-Poivre — compétences du BTS SIO SLAM</a>. Les pièces documentaires liées doivent être analysées individuellement avant toute revendication de compétence.</p>
       </div>
     </main>
-
-    <footer class="site-footer">
-      <p>© 2026 Ilyas Fernane — Portfolio développeur web</p>
-    </footer>
-
+    <footer class="site-footer"><p>© 2026 Ilyas Fernane — Portfolio développeur web</p></footer>
     <script src="js/menu.js"></script>
     <script src="js/theme.js"></script>
   </body>
